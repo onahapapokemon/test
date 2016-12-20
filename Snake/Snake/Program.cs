@@ -10,6 +10,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
+            //отрисовка линий
             HLine hLineUp = new HLine(0, 118, 0, '*');
             hLineUp.Drow();
 
